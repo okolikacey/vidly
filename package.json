@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles --watchAll --verbose"
+    "test": "jest --detectOpenHandles --watchAll --verbose --coverage"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "joi-objectid": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "mongoose": "^6.6.5",
     "nodemon": "^2.0.19",
     "winston": "^3.8.2",
